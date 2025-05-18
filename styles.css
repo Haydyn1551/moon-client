@@ -2,8 +2,8 @@
 Do not use this repository to create you're own website. 
 This is only public for github pages*/
 
-HTML, body {
-    height: 100%;
+html, body {
+    height: 100vh;
     margin: 0;
     background: linear-gradient(to bottom right, #673da1, black);
     color: white;
@@ -58,6 +58,7 @@ HTML, body {
 
 .mods p {
     margin-left: 10px;
+    font-size: smaller;
 }
   
 .upcomingModsTitle {
@@ -70,6 +71,7 @@ HTML, body {
 
 .mods2 p{
     margin-left: 10px;
+    font-size: smaller;
 }
 
 .mods3 {
@@ -78,6 +80,7 @@ HTML, body {
 
 .mods3 p{
     margin-left: 10px;
+    font-size: smaller;
 }
 
 a {
