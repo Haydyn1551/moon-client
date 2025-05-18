@@ -98,3 +98,46 @@ a {
     align-items: center;
     border-radius: 5px;
 }
+
+.meteorContainer {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.meteorTitle {
+    margin-left: 20px;
+}
+
+.bottom {
+    width: 100%;
+    height: 100%;
+    background-color: #673da1;
+}
+
+#versions {
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 2px solid rgba(230, 230, 230, 0.5);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+}
+
+#downloads {
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 2px solid rgba(230, 230, 230, 0.5);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+}
+
+#meteorPlus {
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 2px solid rgba(230, 230, 230, 0.5);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 440px;
+}
