@@ -1,146 +1,63 @@
-<!--COPYRIGHT of 2025, made by MoonClient. 
-Do not use this repository to create you're own website. 
-This is only public for github pages.-->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="moon.png">
-        <meta name="description" content="Moon Client | An Upcoming all in one mod pack for free, with a launcher">
-        <title>Moon Client</title>
-    </head>
-    <body>
-        <div class="top-nav">
-            <div class="logo">
-                <img class="moon" src="moon.png" height="50" width="50">
-                <h1 class="title" >Moon Client</h1>
-            </div>
-            <div class="links">
-                <a class="linkText" href="#meteorPlus">ᴍᴇᴀᴛᴏʀ+</a>
-                <a class="linkText" href="#downloads">ᴅᴏᴡɴʟᴏᴀᴅ</a>
-                <a class="linkText" href="#versions">ᴠᴇʀꜱɪᴏɴꜱ</a>
-                <a class="linkText" href="https://discord.com/invite/gmvS9NEuEn" >ᴅɪꜱᴄᴏʀᴅ</a>
-            </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon Client | An all-in-one Minecraft mod pack</title>
+    <link rel="icon" href="moon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Moon</span> Client
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="info">
-            <h1 style="margin: 0;">An Upcoming</h1>
-            <h1 style="margin: 0;">all in one mod pack</h1>
-            <h1 style="margin: 0;">For free, with a launcher</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#description">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="https://discord.com/invite/gmvS9NEuEn">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Moon Client</h1>
+        <p>An all-in-one Minecraft mod pack</p>
+        <a href="#features" id="hoverBtn" class="btn">DOWNLOAD FOR...</a>
+        <div class="popup" id="popup">Client will be here soon!</div>
+    </section>
+    <div id="features">
+        <div class="fpsBoost">
+            <i class="fa-solid fa-gauge"></i>
+            <p>FPS Boost</p>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 class="upcomingModsTitle">Mods | All will be customizable </h1>
-        <br>
-        <div class="mods" id="mods">
-            <p  class="mod">CPS</p>
-            <p class="mod">Armor HUD</p>
-            <p class="mod">FPS</p>
-            <p class="mod">Hypixel</p>
-            <p class="mod">Potion Status</p>
-            <p class="mod">Toggle Sprint</p>
-            <p class="mod">FullBright</p>
-            <p class="mod">Clear Chat</p>
-            <p class="mod">Free Look</p>
-            <p class="mod">Compass</p>
-            <p class="mod">Coordinates</p>
-            <p class="mod">Free Look</p>
+        <div class="addOwnMods">
+            <i class="fa-solid fa-file-import"></i>
+            <p>Add mods</p>
         </div>
-        <div class="mods2">
-            <p class="mod">Crosshair</p>
-            <p class="mod">Time</p>
-            <p class="mod">Ping</p>
-            <p class="mod">Pack Organizer</p>
-            <p class="mod">Server IP</p>
-            <p class="mod">Self Name Tag</p>
-            <p class="mod">Name Tags</p>
-            <p class="mod">Block Overlay</p>
-            <p class="mod">Debug</p>
-            <p class="mod">No Rain</p>
-            <p class="mod">Macros</p>
+    </div>
+    <div class="descriptions">
+        <p>Improve your Minecraft gameplay with by boosting your FPS</p>
+        <p>Add built in mods into your game for a better experince</p>
+    </div>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <div class="descriptionWrap">
+        <br>
+        <br>
+        <div class="description" id="description">
+            <p>Moon Client will be a customizable client/launcher for old, and the latest versions of Minecraft Java. We will be working on the vanilla version of the game, then we'll create a Fabric/Forge version of the client. You will be able to add your own mods to the game (that are from the launcher). We are looking for more developers. If you're interested please join the discord and create a ticket</p>
         </div>
-        <div class="mods3">
-            <p class="mod">Themes</p>
-            <p class="mod">Chat Notifications</p>
-            <p class="mod">Health Indicator</p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="bottom">
-            <div Id="versions">
-                <br>
-                <br>
-                <center>
-                    <h1>Versions and Mod loaders</h1>
-                    <p>Moon Client will support Fabric and Forge with Minecraft versions 1.8.9 and latest versions of the game</p>
-                </center>
-            </div>
-            <br>
-            <br>
-            <br>
-            <div Id="downloads">
-                <br>
-                <center>
-                    <h1>Downloads</h1>
-                    <br>
-                    <p>The client is not available for download, stay tuned!</p>
-                    <br>
-                    <br>
-                </center>
-            </div>
-            <br>
-            <br>
-            <br>
-            <div id="meteorPlus">
-                <br>
-                <br>
-                <center>
-                    <div class="meteorContainer">
-                        <img src="meteorPlus.png" width="100" height="100" style="border-radius: 10px;">
-                        <h1 class="meteorTitle">Meteor+</h1>
-                    </div>
-                    <br>
-                    <br>
-                    <p>Meteor+ is a subscription with in-game perks that include:</p>
-                    <p>- Meteor rank in discord</p>
-                    <p>- Blue icon with green +</p>
-                    <p>- Upload 5 of your own cloaks</p>
-                    <p>- 1 free emote every month</p>
-                    <p>- 1 free cosmetic every month</p>
-                    <p>- 10% of the store</p>
-                    <p>- Access to the private chats with the other Meteor+ subscribers</p>
-                    <h3>All for $5.99 a month</h3>
-                </center>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-    </body>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
